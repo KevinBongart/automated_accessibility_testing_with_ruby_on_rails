@@ -31,6 +31,8 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'capybara'
   gem 'selenium-webdriver'
+  gem 'axe-core-rspec'
+  gem 'axe-core-capybara'
 end
 
 group :development do

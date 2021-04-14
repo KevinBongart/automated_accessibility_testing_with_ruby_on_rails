@@ -8,5 +8,6 @@ describe 'Posts index', type: :feature do
   it 'is valid HTML', js: true do
     visit '/posts'
     expect(page).to have_content('Hello, world!')
+    expect(page).to be_axe_clean
   end
 end
